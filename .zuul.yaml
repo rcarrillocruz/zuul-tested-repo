@@ -1,0 +1,11 @@
+- project:
+  name: rcarrillocruz/zuul-tested-repo
+  periodic-hourly:
+    jobs:
+      - zuul-tested-repo-run-date
+
+- job:
+    name: zuul-tested-repo-run-date
+    nodes:
+      - name: test-node
+        label: openvswitch-xenial-image
