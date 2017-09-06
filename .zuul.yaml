@@ -6,7 +6,7 @@
 
 - job:
     name: base
-    parent: None
+    parent: null
 
 - job:
     name: zuul-tested-repo-run-date
