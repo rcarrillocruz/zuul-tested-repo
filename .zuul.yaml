@@ -5,10 +5,6 @@
         - zuul-tested-repo-run-date
 
 - job:
-    name: base
-    parent: null
-
-- job:
     name: zuul-tested-repo-run-date
     nodes:
       - name: test-node
