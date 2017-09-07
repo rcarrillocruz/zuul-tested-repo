@@ -1,5 +1,5 @@
 - project:
-    name: rcarrillocruz/zuul-tested-repo
+    name: rcarrillocruz-org/zuul-tested-repo
     periodic-hourly:
       jobs:
         - zuul-tested-repo-run-date
