@@ -3,3 +3,8 @@
     check:
       jobs:
         - noop
+        - hello-world
+
+- job:
+    name: hello-world
+    run: playbooks/hello-world/run.yaml
