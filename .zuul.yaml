@@ -8,5 +8,3 @@
 - job:
     name: hello-world
     run: playbooks/hello-world/run.yaml
-    nodeset:
-      nodes: []
