@@ -2,7 +2,7 @@
     name: rcarrillocruz-org/zuul-tested-repo
     check:
       jobs:
-          #- noop
+        - noop
         - hello-world
 
 - job:
