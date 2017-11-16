@@ -1,3 +1,4 @@
 - hosts: localhost
   tasks:
-    - debug: msg="Hello world"
+    - name: Hello world
+      debug: msg="Hello world"
