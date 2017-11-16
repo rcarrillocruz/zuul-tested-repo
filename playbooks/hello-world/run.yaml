@@ -1,3 +1,5 @@
 - hosts: all
   tasks:
+    - pause:
+        minutes: 1
     - debug: msg="Hello world"
