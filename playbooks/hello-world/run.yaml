@@ -2,4 +2,4 @@
   tasks:
     - pause:
         minutes: 1
-    - command: echo "Hello world"
+    - shell: echo "Hello world"
