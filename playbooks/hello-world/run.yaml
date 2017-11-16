@@ -1,3 +1,4 @@
 - hosts: all
   tasks:
+    - raw: test -e /usr/bin/python || (sudo apt-get -y update && apt-get install -y python-minimal)
     - command: echo "Hello world"
